@@ -1,7 +1,7 @@
 const express = require("express");
 const morgan = require("morgan");
 const app = express();
-
+//Logging incoming requests
 app.use(morgan("tiny"));
 
 app.post("/", function (req, res) {
