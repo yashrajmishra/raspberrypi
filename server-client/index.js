@@ -6,7 +6,7 @@ app.use(morgan("tiny"));
 
 app.post("/", function (req, res) {
   console.log(req.param("name"));
-  res.json({ message: "Perfect bitch" });
+  res.json({ message: "Perfect" });
 });
 
 app.listen(2222);
